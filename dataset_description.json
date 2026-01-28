@@ -4,25 +4,25 @@
     "DatasetType": "raw",
     "License": "CC0",
     "Authors": [
-      "Agata Wolna"
+        "Agata Wolna"
     ],
     "Keywords": [
-      "bilingualism",
-      "functional localization",
-      "language localizer",
-      "MD localizer",
-      "reading task",
-      "fMRI"
+        "bilingualism",
+        "functional localization",
+        "language localizer",
+        "MD localizer",
+        "reading task",
+        "fMRI"
     ],
     "Funding": [
-      "NCN PRELUDIUM 2022/45/N/HS6/01256"
+        "NCN PRELUDIUM 2022/45/N/HS6/01256"
     ],
     "GeneratedBy": [
-      {
-        "Name": "dcm2niix",
-        "Description": "DICOM to NIfTI conversion and generation of BIDS-compatible metadata sidecars.",
-        "CodeURL": "https://github.com/rordenlab/dcm2niix"
-      }
-    ]
-  }
-  
+        {
+            "Name": "dcm2niix",
+            "Description": "DICOM to NIfTI conversion and generation of BIDS-compatible metadata sidecars.",
+            "CodeURL": "https://github.com/rordenlab/dcm2niix"
+        }
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds007342.v1.0.0"
+}
