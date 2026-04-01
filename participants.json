@@ -1,13 +1,51 @@
 {
     "age": {
         "Description": "age of the participant",
-        "Units": "years"
+        "Units": "years",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Age",
+                "Label": "Age"
+            },
+            "VariableType": "Continuous",
+            "Format": {
+                "TermURL": "nb:FromFloat",
+                "Label": "float"
+            },
+            "MissingValues": [
+                "n/a",
+                "N/A",
+                "na",
+                "NA",
+                "nan",
+                "NaN",
+                ""
+            ]
+        }
     },
     "sex": {
         "Description": "sex of the participant as reported by the participant",
         "Levels": {
             "m": "male",
             "f": "female"
+        },
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Sex",
+                "Label": "Sex"
+            },
+            "VariableType": "Categorical",
+            "Levels": {
+                "f": {
+                    "TermURL": "snomed:248152002",
+                    "Label": "Female"
+                },
+                "m": {
+                    "TermURL": "snomed:248153007",
+                    "Label": "Male"
+                }
+            },
+            "MissingValues": []
         }
     },
     "handedness": {
@@ -43,11 +81,11 @@
         "Units": "points out of 25"
     },
     "proficiency_lextale": {
-        "Description": "Participants' score on Lextale test (Lemhöfer & Broersma, 2012)",
+        "Description": "Participants' score on Lextale test (Lemh\u00f6fer & Broersma, 2012)",
         "Units": "percent of correct responses"
     },
     "raven_score": {
-        "Description": "Participants' score on a short version of the Raven’s Progressive Matrices test (only uneven items)",
+        "Description": "Participants' score on a short version of the Raven\u2019s Progressive Matrices test (only uneven items)",
         "Units": "percent of correct responses"
     },
     "L1_VF_category": {
@@ -209,5 +247,15 @@
     "L4_accent_self_rated_proficiency": {
         "Description": "Self-rated proficiency in accent L4",
         "Units": "score 1-10"
+    },
+    "participant_id": {
+        "Description": "",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": "Participant ID"
+            },
+            "VariableType": "Identifier"
+        }
     }
 }
